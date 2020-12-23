@@ -16,6 +16,7 @@ const FormInput = ({ name, label }) => {
         fullWidth
         required
         error={isError}
+        defaultValue=""
       />
     </Grid>
   );
